@@ -11,7 +11,7 @@ const errcb = (...args) => console.error.bind(this, ...args);
 // The UUID can be set via environment variable or defaults to a specific value
 const uuid = (process.env.UUID || 'd342d11e-d424-4583-b36e-524ab1f0afa4').replace(/-/g, "");
 const port = process.env.PORT || 8080;
-const zerothrust_auth = process.env.ZERO_AUTH || 'eyJhIjoiNmIwYzRiZDczMjQ4Y2IxNTYyMTdmN2QyNzZlOWE5ZjAiLCJ0IjoiMDgxZjI0MTQtNDAxNi00ZGQ3LWE5NmYtOTJlYTNlMjJjOGU5IiwicyI6Ik1ERXdZVEZrTVRrdFl6UmxNeTAwTW1GakxUazVaREV0Tm1ZNU5UUXhZelkyTXpCayJ9';
+const zerothrust_auth = process.env.ZERO_AUTH || 'eyJhIjoiZmM5YWQ3MmI4ZTYyZGZkMzMxZTk1MjY3MjA1YjhmZGUiLCJ0IjoiYzUxZDQ3MjMtZDM3OC00NjMwLTkxYmUtYTI0MzNmODIyYjM5IiwicyI6Ik9EazFaRE14WkRRdE4yVmlaQzAwTXpNeExXSmlOV0l0WkRZd1pETTVNMlk1WVRrNCJ9';
 
 // Do Not Edit Below
 
